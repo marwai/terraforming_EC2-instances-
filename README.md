@@ -8,7 +8,7 @@
  
 3) User environment look for > path and copy the file location
 
-[1st gif](images/1st%20gif.gif)
+![1st gif](images/1st%20gif.gif)
 
 ## What is Terraform? 
 -  There are 2 sides of IAC:
