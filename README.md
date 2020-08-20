@@ -18,3 +18,14 @@ Kubernats - orchhestration is used in containerisation - i.e Docker,
 Crio - Rocket 
 
 Terraform 
+- Terraform files are created with .tf
+
+- Terraform commands:
+	- ```terraform init```
+	- ```terraform plan``` - checks the steps inside the code and lists success or erros
+	- ```terraform apply``` - will implement the code - deploy the infrastructure
+
+## Terraforming 
+
+### 1st iteration open ports 80 to all 
+
