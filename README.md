@@ -29,9 +29,9 @@ __Crio__ - Rocket
 the instance [below](#Terraform-Commands).
 
 ## Terraform commands:
-	- ```terraform init```
-	- ```terraform plan``` - checks the steps inside the code and lists success or errors
-	- ```terraform apply``` - will implement the code - deploy the infrastructure
+- ```terraform init```
+- ```terraform plan``` - checks the steps inside the code and lists success or errors
+- ```terraform apply``` - will implement the code - deploy the infrastructure
 
 ## Terraforming
 
