@@ -15,10 +15,10 @@
 	- configuration management
 	- orchestration
 
-__Ansible__ - configuration management
-__Terraform__ - orchestration
-__Kubernetes__ - orchestration is used in containerisation - i.e Docker,
-__Crio__ - Rocket 
+__Ansible__ - configuration management  
+__Terraform__ - orchestration   
+__Kubernetes__ - orchestration is used in containerisation - i.e Docker  
+__Crio__ - Rocket
 
 
 ## Terraform
@@ -30,7 +30,7 @@ the instance [below](#Terraform-Commands).
 
 ## Terraform commands:
 	- ```terraform init```
-	- ```terraform plan``` - checks the steps inside the code and lists success or erros
+	- ```terraform plan``` - checks the steps inside the code and lists success or errors
 	- ```terraform apply``` - will implement the code - deploy the infrastructure
 
 ## Terraforming
