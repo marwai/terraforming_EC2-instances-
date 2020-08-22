@@ -1,4 +1,5 @@
-*.terraform
 .idea/ 
 /venv
 *.log
+*.aws
+.terraform
