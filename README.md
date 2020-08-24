@@ -10,6 +10,33 @@
 
 ![1st gif](images/1st%20gif.gif)
 
+# Using Terraform
+1) initialise terraform 
+```
+terraform init
+```
+
+2) Execute the plan 
+```
+terraform plan
+```
+
+3) Apply the changes to reach the desired state for the configuration
+```commandline
+terraform apply
+```
+
+4) SSH into the vm using the public IP
+```commandline
+ssh -i ~/DevOpsStudents.pem ubunut@public_ip
+```
+5) go into the app folder and start the app
+```commandline
+cd app
+pm2 start app.js
+```
+![2nd gif](images/2nd%20gif.gif)
+
 ## What is Terraform?
 -  There are 2 sides of IAC:
 	- configuration management
@@ -32,7 +59,8 @@ the instance [below](#Terraform-Commands).
 - ```terraform init```
 - ```terraform plan``` - checks the steps inside the code and lists success or errors
 - ```terraform apply``` - will implement the code - deploy the infrastructure
-
+- ``` terraform destroy```
+- ```terraform out```
 ## Terraforming
 
 ### 1st iteration open ports 80 to all
